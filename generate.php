@@ -55,7 +55,8 @@ $image_content = $image_content['data'] ?? [];
         .output-text img {
             display: inline-block;
             text-align: center;
-            width: 40%;
+            width: 320px;
+            max-width: 100%;
             margin: 4px auto;
         }
     </style>
